@@ -1,0 +1,11 @@
+name: DevContainer
+services:
+  algo:
+    container_name: algo
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/workspace/algo
+    stdin_open: true
+    tty: true
