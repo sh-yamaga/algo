@@ -1,0 +1,6 @@
+{
+  "[json][jsonc][makefile]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
